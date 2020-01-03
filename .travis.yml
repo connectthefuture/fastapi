@@ -9,10 +9,9 @@ python:
     - "3.7"
     - "3.8"
 
-
 install:
     - pip install flit
-    - flit install --symlink
+    - flit install --s
 
 script:
     - bash scripts/test.sh
