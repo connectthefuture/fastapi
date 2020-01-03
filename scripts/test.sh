@@ -9,5 +9,10 @@ if [ -f ./test.db ]; then
 fi
 
 export PYTHONPATH=./docs/src
-pytest --cov=fastapi --cov=tests --cov=docs/src --cov-report=term-missing ${@}
+pytest --cov=tests --cov=docs/src --cov-report=term-missing ${@}
 bash ./scripts/lint.sh
+
+
+
+
+# pytest --cov=fastapi --cov=tests --cov=docs/src --cov-report=term-missing ${@}
