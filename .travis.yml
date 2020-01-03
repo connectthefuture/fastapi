@@ -7,13 +7,8 @@ cache: pip
 python:
     - "3.6"
     - "3.7"
-    - "3.8-dev"
-    - "nightly"
+    - "3.8"
 
-matrix:
-    allow_failures:
-        - python: "3.8-dev"
-        - python: "nightly"
 
 install:
     - pip install flit
@@ -30,4 +25,4 @@ deploy:
   script: bash scripts/deploy.sh
   on:
     tags: true
-    python: "3.6"
+    python: "3.8"
