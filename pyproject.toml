@@ -18,7 +18,6 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-flick = "^0.1"
 uvicorn = "^0.11.1"
 starlette = "^0.13.0"
 flit = "^2.1.0"

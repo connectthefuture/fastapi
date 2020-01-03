@@ -5,13 +5,11 @@ language: python
 cache: pip
 
 python:
-    - "3.6"
-    - "3.7"
     - "3.8"
 
 install:
     - pip install flit
-    - flit install -s
+    # - flit install -s
 
 script:
     - bash scripts/test.sh

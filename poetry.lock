@@ -32,14 +32,6 @@ version = "0.15.2"
 
 [[package]]
 category = "main"
-description = "flick: watch for something not so special"
-name = "flick"
-optional = false
-python-versions = "*"
-version = "0.1"
-
-[[package]]
-category = "main"
 description = "A simple packaging tool for simple packages."
 name = "flit"
 optional = false
@@ -176,7 +168,7 @@ python-versions = ">=3.6.1"
 version = "8.1"
 
 [metadata]
-content-hash = "3442e95771a597ddbcdbbc9ad2674db6ae95a5d308c670911f1bf68580457770"
+content-hash = "66fe4c14828ce8b855109dc224b0cbdf0e2669bec6383d755a22a631bc0d7d4d"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -196,10 +188,6 @@ docutils = [
     {file = "docutils-0.15.2-py2-none-any.whl", hash = "sha256:9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827"},
     {file = "docutils-0.15.2-py3-none-any.whl", hash = "sha256:6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0"},
     {file = "docutils-0.15.2.tar.gz", hash = "sha256:a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"},
-]
-flick = [
-    {file = "flick-0.1-py2.py3-none-any.whl", hash = "sha256:9bb488786f9696ec90ea030e631da515ca6c2557ebd68cf9dab78a8046253849"},
-    {file = "flick-0.1.tar.gz", hash = "sha256:8057e1416d336267ccf284b7ddd2c7b059f4f076d00f89c85bfd8bd7017d4fb3"},
 ]
 flit = [
     {file = "flit-2.1.0-py3-none-any.whl", hash = "sha256:494e0806840fe896fe31ce2a413583115324f12177ecaf7427f157caa9b9c5b2"},
